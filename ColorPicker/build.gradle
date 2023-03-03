@@ -1,6 +1,21 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = "dog.abcd"
+                artifactId = "colorpicker"
+                version = "1.0.0"
+            }
+        }
+    }
 }
 
 android {
