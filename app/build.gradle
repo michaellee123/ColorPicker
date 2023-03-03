@@ -40,11 +40,13 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation project(path: ':ColorPicker')
+//    implementation project(path: ':ColorPicker')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.geyifeng.immersionbar:immersionbar:3.2.2'
     implementation 'com.geyifeng.immersionbar:immersionbar-ktx:3.2.2'
     implementation "androidx.multidex:multidex:2.0.1"
+//    implementation 'dog.abcd:ColorPicker:1.0.0'
+    implementation 'com.github.michaellee123:ColorPicker:1.0.0'
 }

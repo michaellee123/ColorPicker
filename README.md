@@ -1,5 +1,8 @@
 # Color Picker
 
+![screenshot](https://jitpack.io/v/michaellee123/ColorPicker.svg)
+
+
 This is a simple color picker used to select a color from the HSV color space.
 
 ## Some Knowledge
@@ -27,7 +30,7 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 // see the latest version on the badge that the top of this document
-implementation 'dog.abcd:HSVColorPicker:lastest_version'
+implementation 'com.github.michaellee123:ColorPicker:latest_version'
 ```
 
 2. add a ColorHuePicker to your layout
